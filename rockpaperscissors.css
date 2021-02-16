@@ -1,0 +1,109 @@
+
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+    
+}
+html {
+    font-size: 16px;
+    background-color: yellow;
+}
+
+h1,  h2 {
+    text-align: center;
+    background-color: yellow;
+    padding:2%;
+    margin: -1%;
+
+}
+.eventbox{
+display: flex;
+flex-wrap: non-wrap;
+justify-content: space-evenly;
+    align-items: center;
+    background-color: yellow;
+    padding-bottom: 15em;
+}
+
+
+#userbox {
+    border: 1px solid black;
+    height: 50px;
+    width: 250px;
+    position: relative;
+    right: 100px;
+    transform: translateY(50%);
+    text-align: center;
+    top: 10em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+    
+    
+}
+
+#computerbox {
+    border: 1px solid black;
+    height: 50px;
+    width: 250px;
+    position: relative;
+    left: 250px;
+    transform: translateY(-50%);
+    top: 10em;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+#buttons{
+    background-color: yellow;
+    position: relative;
+    
+    text-align: center;
+       
+    
+}
+
+
+.buttonstyle {
+    position: relative;
+    margin: 2%;
+    height: 10em;
+    width: 10em;
+    font-weight: bold;
+    color: red;
+}
+    
+#rock{
+     background-image:url("https://p.kindpng.com/picc/s/137-1377022_transparent-the-rock-png-wwf-the-rock-png.png");
+background-size: cover;
+   
+    
+    
+}
+#paper{
+    background-image: url("https://paper-media.com/media/image/product/3592/lg/bsc-8341_motif-stationery-sets-antique-history-old-style~2.jpg");
+    background-size: cover;
+}
+#scissors {
+    background-image: url(https://www.beautytrack.co.uk/wp-content/uploads/2019/10/Professional-Hairdressing-Scissors-Sharp-Cutting-Left-Handed-6.jpg);
+    background-size: cover;
+}
+
+#victorybox {
+    position: relative;
+    background-color: yellow;
+    text-align: center;
+    align-self: center;
+    
+    
+}
